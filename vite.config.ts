@@ -4,10 +4,10 @@ import { defineConfig } from 'vite'
 export default defineConfig({
     build: {
         rollupOptions: {
-            input: 'src/main.ts',
+            input: 'src/index.ts',
             output: {
-                dir: 'dist/main',
-                entryFileNames: 'main.js'
+                dir: 'dist',
+                entryFileNames: 'index.bundle.js'
             }
         }
     }

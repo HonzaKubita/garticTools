@@ -14,11 +14,7 @@
     },
     "content_scripts": [
         {
-            "js": ["dist/main/main.js"],
-            "matches": ["https://garticphone.com/*"]
-        },
-        {
-            "js": ["dist/iframe/iframe.js"],
+            "js": ["dist/index.bundle.js"],
             "matches": ["https://garticphone.com/*"],
             "all_frames": true
         }
