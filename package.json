@@ -1,0 +1,16 @@
+{
+    "name": "gartictools",
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build:main": "vite build --config vite.config.main.js",
+        "build:iframe": "vite build --config vite.config.iframe.js",
+        "build": "tsc && yarn build:main && yarn build:iframe",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "typescript": "^5.2.2",
+        "vite": "^5.1.4"
+    }
+}
