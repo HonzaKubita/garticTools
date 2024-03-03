@@ -9,6 +9,7 @@ export default function injectIframe() {
     // Create a new iframe with the same content that we can control
     const iframe = document.createElement("iframe");
     iframe.src = window.location.href;
+    iframe.id = "garticToolsIframe";
     iframe.style.width = "100vw";
     iframe.style.height = "100vh";
     iframe.style.position = "fixed";
